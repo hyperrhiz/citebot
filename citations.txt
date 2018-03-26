@@ -1,8 +1,3 @@
-data1
-data2
-data3
-data4
-
 Smith, Linda Tuhiwai. Decolonizing Methodologies: Research and Indigenous Peoples. London: Zed Books, 2012.
 Visweswaran, Kamala. Fictions of Feminist Ethnography. Minneapolis: University of Minnesota Press, 1994.
 Wilson, Shawn. Research is Ceremony: Indigenous Research Methods. Winnipeg: Fernwood Publishing, 2008.

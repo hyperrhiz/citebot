@@ -12,10 +12,11 @@ from Adafruit_Thermal import *
 
 while True:
 	def generate_post():
-		with open('citations.txt') as f:
+		with open('cleaned.txt') as f:
 	
 			cite = random.choice(list(f))
     		print(cite)
+    		printer.feed(3)
     		time.sleep(10)
 		return cite
 
