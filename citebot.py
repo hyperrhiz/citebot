@@ -2,7 +2,7 @@ import random
 import time
 from Adafruit_Thermal import *
 
-#printer = Adafruit_Thermal("/dev/ttyAMA0", 19200, timeout=5)
+printer = Adafruit_Thermal("/dev/ttyAMA0", 19200, timeout=5)
 
 #line = random.choice(open('citations.txt').readlines())
 #print(line)
@@ -15,7 +15,7 @@ while True:
 		with open('cleaned.txt') as f:
 	
 			cite = random.choice(list(f))
-    		print(cite)
+    		printer.println(cite)
     		printer.feed(3)
     		time.sleep(10)
 		return cite
